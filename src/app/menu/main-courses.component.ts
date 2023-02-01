@@ -58,7 +58,31 @@ export class MainCoursesComponent {
     ];
 
     this.postres=[
-      {nombre:"Flan de café irlandés y helado de Oreo", precio:5.99}
+      {nombre:"Flan de café irlandés y helado de Oreo", precio:5.99},
+      {nombre:"Tarta de praliné de avellanas y helado de turrón", precio:5.99},
+      {nombre:"Tarta de queso con nueces caramelizadas a la miel y helado de cereza", precio:5.99},
+      {nombre:"Peras del señor Bracamonte al limón", precio:5.99},
+      {nombre:"Tiramisú con helado de naranja", precio:5.99},
+      {nombre:"Tocinillo de cielo, salsa de sidra y helado de dulce de leche", precio:5.99},
+      {nombre:"Torrija de «brioche» y helado de crema", precio:5.99},
+      {nombre:"Hojaldre fino de mango y helado de vainilla", precio:5.99},
+      {nombre:"Cremoso de chocolate, salsa de caramelo y helado de ron con pasas", precio:5.99},
+      {nombre:"Sopa fría de mandarina y helado de limón", precio:5.99},
+
+
+    ];
+
+    this.vinos=[
+      {nombre:"Montecastro. D.O. Ribera del Duero", precio:5.99},
+      {nombre:"Valdubón Diez. D.O. Ribera del Duero", precio:5.99},
+      {nombre:"Pico Cuadro Viña el Chorro. D.O. Ribera del Duero.", precio:5.99},
+      {nombre:"Cillar de Silos. D.O. Ribera del Duero.", precio:5.99},
+      {nombre:"Valduero Una Cepa. D.O. Ribera del Duero.", precio:5.99},
+      {nombre:"Parlaor Roble. D.O. Toro.", precio:5.99},
+      {nombre:"Sirena del Maar Rosado. Encomienda de Cervera", precio:5.99},
+      {nombre:"Cavas Hill Brut Reserva. D.O. Cava.", precio:5.99},
+      
+
     ];
   }
 }

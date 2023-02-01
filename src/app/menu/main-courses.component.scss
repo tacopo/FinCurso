@@ -1,0 +1,19 @@
+@import "../partials/colors";
+
+.row {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#general {
+    background-color: $secundarioClaro ;
+    
+}
+
+.card {
+    background-color: $fondoComponentes;
+    -webkit-box-shadow: 17px 10px 21px 0px rgba(0, 74, 117, 1);
+    -moz-box-shadow: 17px 10px 21px 0px rgba(0, 74, 117, 1);
+    box-shadow: 17px 10px 21px 0px rgba(0, 74, 117, 1);
+    ;
+}

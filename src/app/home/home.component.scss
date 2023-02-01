@@ -1,0 +1,34 @@
+@import "../partials/colors";
+picture {
+    img {
+        width: 100%;
+        
+    }
+}
+#imagenes{
+    padding: 5%;
+
+}
+#descripciones{
+    padding: 5%;
+}
+.row{
+    background-color: $secundarioClaro;
+    img{
+        width: 100%;
+        border-radius: 3%;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+   border-radius: 3%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   .btn-primary{
+    background-color: $primarioClaro;
+   }
+}
