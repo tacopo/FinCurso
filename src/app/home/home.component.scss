@@ -1,34 +1,42 @@
 @import "../partials/colors";
+
 picture {
     img {
         width: 100%;
-        
+
     }
 }
-#imagenes{
+
+#imagenes {
     padding: 5%;
 
 }
-#descripciones{
+
+#descripciones {
     padding: 5%;
 }
-.row{
+
+.row {
     background-color: $secundarioClaro;
-    img{
+
+    img {
         width: 100%;
         border-radius: 3%;
     }
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container{
-   border-radius: 3%;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   .btn-primary{
-    background-color: $primarioClaro;
-   }
+
+.container {
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .btn-primary {
+        background-color: $primarioClaro;
+    }
 }

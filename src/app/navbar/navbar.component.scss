@@ -3,38 +3,39 @@
 header {
     background-color: $primarioOscuro;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 0;
-    nav {
+    width: 100%;
+  
+}
+nav {
+    background-color: $primario;
+    display: flex;
+    width: 100%;
+
+    .container-fluid {
         background-color: $primario;
         display: flex;
-        width: 100%;
+    }
 
-        .container-fluid {
-            background-color: $primario;
-            display: flex;
-        }
+    .navbar-nav {
+        display: flex;
+        background-color: $primario;
 
-        .navbar-nav {
-            display: flex;
-            background-color: $primario;
-
-            .nav-item {
-                &:hover {
-                    background-color: $primarioOscuro;
-                }
-
-            }
-        }
-
-        .activo {
-            background-color: $primarioClaro;
-
+        .nav-item {
             &:hover {
                 background-color: $primarioOscuro;
             }
+
+        }
+    }
+
+    .activo {
+        background-color: $primarioClaro;
+
+        &:hover {
+            background-color: $primarioOscuro;
         }
     }
 }
